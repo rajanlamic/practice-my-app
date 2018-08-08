@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should render About properly with snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About
+    isDevelopment={true}
+    isEnhancement={false}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          About
+</h2>,
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+>
+          Click
+</Button>,
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+>
+          Click1
+</Button>,
+        <div>
+          myValue original
+</div>,
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+>
+          Redux Click Development
+</Button>,
+        <div
+          className="development"
+>
+          Development Clicked
+</div>,
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+>
+          Redux Click Enhancement
+</Button>,
+        false,
+        <AboutChild
+          myProp="myProp"
+/>,
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+>
+          Asynchronous Click Development
+</Button>,
+        undefined,
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+>
+          Load Categories
+</Button>,
+        undefined,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "About",
+        },
+        "ref": null,
+        "rendered": "About",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Click",
+          "color": "secondary",
+          "onClick": [Function],
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Click",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Click1",
+          "color": "secondary",
+          "onClick": [Function],
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Click1",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "myValue original",
+        },
+        "ref": null,
+        "rendered": "myValue original",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Redux Click Development",
+          "color": "secondary",
+          "onClick": [Function],
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Redux Click Development",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Development Clicked",
+          "className": "development",
+        },
+        "ref": null,
+        "rendered": "Development Clicked",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Redux Click Enhancement",
+          "color": "secondary",
+          "onClick": [Function],
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Redux Click Enhancement",
+        "type": [Function],
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "myProp": "myProp",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Asynchronous Click Development",
+          "color": "secondary",
+          "onClick": [Function],
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Asynchronous Click Development",
+        "type": [Function],
+      },
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Load Categories",
+          "color": "secondary",
+          "onClick": [Function],
+          "tag": "button",
+        },
+        "ref": null,
+        "rendered": "Load Categories",
+        "type": [Function],
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            About
+</h2>,
+          <Button
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+>
+            Click
+</Button>,
+          <Button
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+>
+            Click1
+</Button>,
+          <div>
+            myValue original
+</div>,
+          <Button
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+>
+            Redux Click Development
+</Button>,
+          <div
+            className="development"
+>
+            Development Clicked
+</div>,
+          <Button
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+>
+            Redux Click Enhancement
+</Button>,
+          false,
+          <AboutChild
+            myProp="myProp"
+/>,
+          <Button
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+>
+            Asynchronous Click Development
+</Button>,
+          undefined,
+          <Button
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+>
+            Load Categories
+</Button>,
+          undefined,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About",
+          },
+          "ref": null,
+          "rendered": "About",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Click",
+            "color": "secondary",
+            "onClick": [Function],
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Click",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Click1",
+            "color": "secondary",
+            "onClick": [Function],
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Click1",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "myValue original",
+          },
+          "ref": null,
+          "rendered": "myValue original",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Redux Click Development",
+            "color": "secondary",
+            "onClick": [Function],
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Redux Click Development",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Development Clicked",
+            "className": "development",
+          },
+          "ref": null,
+          "rendered": "Development Clicked",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Redux Click Enhancement",
+            "color": "secondary",
+            "onClick": [Function],
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Redux Click Enhancement",
+          "type": [Function],
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "myProp": "myProp",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Asynchronous Click Development",
+            "color": "secondary",
+            "onClick": [Function],
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Asynchronous Click Development",
+          "type": [Function],
+        },
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Load Categories",
+            "color": "secondary",
+            "onClick": [Function],
+            "tag": "button",
+          },
+          "ref": null,
+          "rendered": "Load Categories",
+          "type": [Function],
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
