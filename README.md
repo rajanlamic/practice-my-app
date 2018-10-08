@@ -5,6 +5,12 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Table of Contents
 
+    "build-a-sass": "node-sass src/ -o src/",
+    "prefix-a-css": "postcss -u autoprefixer -r ./src/assets/css/App.css",
+    "pipe-a-build": "npm run build-a-sass | npm run prefix-a-css",
+    "pipe-a-watch": "onchange ./src/assets/**/*.scss -- npm run pipe-a-build"
+    
+
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
